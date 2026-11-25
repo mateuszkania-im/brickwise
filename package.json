@@ -1,0 +1,20 @@
+{
+  "name": "brickwise",
+  "version": "0.1.0",
+  "description": "Turn any object into a buildable brick model: every brick placed one by one, checked to exist in its colour, priced, with a shopping list and a step-by-step instruction booklet. Deterministic from the saved design down.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Mateusz Kania (https://github.com/mateuszkania-im)",
+  "homepage": "https://github.com/mateuszkania-im/brickwise",
+  "repository": { "type": "git", "url": "git+https://github.com/mateuszkania-im/brickwise.git" },
+  "bin": { "brickwise": "bin/brickwise.mjs" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "test:fast": "BW_FAST=1 node --test test/*.test.mjs",
+    "build-render": "esbuild src/booklet/render.js --bundle --format=iife --minify --outfile=src/booklet/dist/render.js",
+    "data": "scripts/build-data.sh && node scripts/build-part-map.mjs"
+  },
+  "dependencies": { "three": "0.170.0", "playwright": "1.64.1", "pdf-lib": "1.17.1" },
+  "devDependencies": { "esbuild": "0.28.2" },
+  "engines": { "node": ">=22" }
+}

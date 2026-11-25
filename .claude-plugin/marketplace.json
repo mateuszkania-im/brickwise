@@ -1,0 +1,16 @@
+{
+  "name": "brickwise",
+  "owner": {
+    "name": "Mateusz Kania",
+    "url": "https://github.com/mateuszkania-im"
+  },
+  "description": "brickwise: turn any object into a buildable brick model with checked parts, a priced shopping list and an instruction booklet. Not affiliated with the LEGO Group.",
+  "plugins": [
+    {
+      "name": "brickwise",
+      "source": "./",
+      "description": "Turn any object into a buildable brick model: real parts in real colours, a shopping list with a cost estimate, and a step-by-step booklet. Not affiliated with the LEGO Group.",
+      "version": "0.1.0"
+    }
+  ]
+}

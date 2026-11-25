@@ -1,0 +1,16 @@
+node_modules/
+data/raw/
+out/
+*.log
+.DS_Store
+forge/.ldraw-cache/
+# third-party reference photos stay local (copyright); meshes are large and generated
+**/ref/**/*.jpg
+**/ref/**/*.jpeg
+**/ref/**/*.png
+**/ref/**/*.webp
+**/ref/**/*.heic
+**/ref/**/*.JPG
+**/ref/**/*.JPEG
+**/ref/**/*.PNG
+*.glb

@@ -1,0 +1,27 @@
+{
+ "endpoint": "fal-ai/hunyuan-3d/v3.1/pro/image-to-3d",
+ "request_id": "01a2057e-7514-7cd3-9ccb-9cf84751ce5c",
+ "inputs": {
+  "front": {
+   "file": "crop-front.jpg",
+   "sha256": "8504f7782a7095facd4285275e30622078c7446d1e4e6e7fbbd36422eefe2534"
+  },
+  "left": {
+   "file": "crop-left.jpg",
+   "sha256": "1dbf5d721c8a9b49bfdf6681679d05495d476aa6005ac6d9e8266dbb33f233a3"
+  },
+  "back": {
+   "file": "crop-rear.jpg",
+   "sha256": "bbd072884071ed233c6f2c94ec2d9e3f4efdac0920843c4633d8de2f06df2851"
+  },
+  "right-front": {
+   "file": "crop-rightfront.jpg",
+   "sha256": "4bfd5a4be98ad1cc0a981cdfe893551ac92936da70702c5322f30385901a8dba"
+  }
+ },
+ "params": {
+  "generate_type": "Normal",
+  "face_count": 200000
+ },
+ "glb_sha256": "9f6f223261ceb4b9a54ee13f27f0430bd9a95a9f566afd40f7cff86d9d418d40"
+}

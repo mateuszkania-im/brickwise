@@ -1,0 +1,9 @@
+{
+  "name": "brickwise",
+  "version": "0.1.0",
+  "description": "Turn any object into a buildable brick model: every brick placed one by one, only parts that exist in their colour, a shopping list with a cost estimate (owned sets subtracted) and a step-by-step instruction booklet. Not affiliated with the LEGO Group.",
+  "author": { "name": "Mateusz Kania", "url": "https://github.com/mateuszkania-im" },
+  "homepage": "https://github.com/mateuszkania-im/brickwise",
+  "license": "MIT",
+  "keywords": ["bricks", "ldraw", "moc", "bill-of-materials", "instructions"]
+}

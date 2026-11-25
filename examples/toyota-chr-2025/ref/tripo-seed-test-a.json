@@ -1,0 +1,24 @@
+{
+ "endpoint": "tripo3d/h3.1/multiview-to-3d",
+ "request_id": "01a205a4-5a2a-7951-9bf2-a0c17b8ef8d6",
+ "inputs": {
+  "front": {
+   "file": "crop-front.jpg",
+   "sha256": "8504f7782a7095facd4285275e30622078c7446d1e4e6e7fbbd36422eefe2534"
+  },
+  "left": {
+   "file": "crop-left.jpg",
+   "sha256": "1dbf5d721c8a9b49bfdf6681679d05495d476aa6005ac6d9e8266dbb33f233a3"
+  },
+  "back": {
+   "file": "crop-rear.jpg",
+   "sha256": "bbd072884071ed233c6f2c94ec2d9e3f4efdac0920843c4633d8de2f06df2851"
+  }
+ },
+ "params": {
+  "generate_type": "geometry",
+  "face_count": 200000,
+  "seed": 42
+ },
+ "glb_sha256": "97cb749496c6fa117f8959a16bc6c4bdd247081dc5f19e01ba6559198f2e3d2a"
+}
